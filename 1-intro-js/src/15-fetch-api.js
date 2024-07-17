@@ -1,4 +1,6 @@
 
+// https://developer.mozilla.org/es/docs/Web/API/Fetch_API
+
 const httpClient = fetch('https://jsonplaceholder.typicode.com/users');
 
 // httpClient.then(response => {

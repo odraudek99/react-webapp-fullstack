@@ -1,5 +1,6 @@
 
-import invoices, { invoiceByClientName , papper } from './data/invoices';
+import invoices, { invoiceByClientName , papper } 
+from './data/invoices';
 
 
 const invoicesName = invoices.map(i => i.name);

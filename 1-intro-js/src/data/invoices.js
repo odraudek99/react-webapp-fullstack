@@ -79,9 +79,12 @@ const invoiceById = (id) => {
 }
 
 const findInvoiceById = (id) => {
+    
     const promise = new Promise((resolve, reject) => {
 
         setTimeout(() => {
+            console.log('Aqui esta el delay');
+
             const result = invoiceById(id);
 
             if (result) {
@@ -89,11 +92,17 @@ const findInvoiceById = (id) => {
             } else {
                 reject('error: no existe la factura por el id!')
             }
+            console.log("Into  Promise");
         }, 2500);
+        
     });
 
+    console.log("It's out of the Promise");
     return promise;
 }
+
+
+
 
 export {
     papper,
