@@ -15,7 +15,15 @@
 
 Course: https://globant.udemy.com/course/react-spring-creando-webapp-full-stack/
 
+Stack:
 - nodejs
 - npm
 - vite
+
+# Create a vite project:
+
+- npm create vite
+
+
+# How to run the app:
 - npm run dev
